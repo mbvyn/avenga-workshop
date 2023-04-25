@@ -35,6 +35,10 @@ To run spark job in the cluster simply run the command
    spark-submit --master <spark-master> <spark-file>
 ````
 
+# Presentations
+1. [Intro to Big Data](https://docs.google.com/presentation/d/1ITg5N6QJQGHiiEUS5LuTc-Wm46Q5MjNpUBcdhZxif1w/edit?usp=sharing)
+2. [Apache Spark](https://docs.google.com/presentation/d/1ecpfVd6aptUhvFK9h2iMgfMBeTCI4zWRhCYax4Qmp-4/edit?usp=sharing)
+
 # Useful Links
 1. [Understanding Hadoop. HDFS](https://mbvyn.medium.com/understanding-hadoop-hdfs-e45f51d2e7a9)
 2. [Understanding Hadoop. Yarn](https://mbvyn.medium.com/understanding-hadoop-yarn-8d787b3ba4ff)
