@@ -38,6 +38,7 @@ To run spark job in the cluster simply run the command
 # Presentations
 1. [Intro to Big Data](https://docs.google.com/presentation/d/1ITg5N6QJQGHiiEUS5LuTc-Wm46Q5MjNpUBcdhZxif1w/edit?usp=sharing)
 2. [Apache Spark](https://docs.google.com/presentation/d/1ecpfVd6aptUhvFK9h2iMgfMBeTCI4zWRhCYax4Qmp-4/edit?usp=sharing)
+3. [Streaming](https://docs.google.com/presentation/d/1h2_SVPEhDavj4L8lF8y5XLlLYYeDTu9_OLuejtA_9Yg/edit?usp=sharing)
 
 # Useful Links
 1. [Understanding Hadoop. HDFS](https://mbvyn.medium.com/understanding-hadoop-hdfs-e45f51d2e7a9)
@@ -50,3 +51,7 @@ To run spark job in the cluster simply run the command
 8. [Apache Spark Tutorial](https://www.udemy.com/course/sparkstarterkit/)
 9. [GitHub. About pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 10. [Dataset to work with](https://www.kaggle.com/datasets/benhamner/sf-bay-area-bike-share)
+11. [Real-time Streaming ETL with Structured Streaming](https://www.databricks.com/blog/2017/01/19/real-time-streaming-etl-structured-streaming-apache-spark-2-1.html)
+12. [Message Delivery Semantics](https://www.baeldung.com/kafka-message-delivery-semantics)
+13. [Apache Kafka Quick Guide](https://www.tutorialspoint.com/apache_kafka/apache_kafka_quick_guide.htm)
+14. [The world of messaging systems](https://mbvyn.medium.com/the-world-of-messaging-systems-6c74b428269d)
