@@ -39,6 +39,7 @@ To run spark job in the cluster simply run the command
 1. [Intro to Big Data](https://docs.google.com/presentation/d/1ITg5N6QJQGHiiEUS5LuTc-Wm46Q5MjNpUBcdhZxif1w/edit?usp=sharing)
 2. [Apache Spark](https://docs.google.com/presentation/d/1ecpfVd6aptUhvFK9h2iMgfMBeTCI4zWRhCYax4Qmp-4/edit?usp=sharing)
 3. [Streaming](https://docs.google.com/presentation/d/1h2_SVPEhDavj4L8lF8y5XLlLYYeDTu9_OLuejtA_9Yg/edit?usp=sharing)
+4. [Data Storage](https://docs.google.com/presentation/d/1s3DexUHbvvB4tdZ-qhfi3FuolnrfskseKgg2f2RvXZg/edit?usp=sharing)
 
 # Useful Links
 1. [Understanding Hadoop. HDFS](https://mbvyn.medium.com/understanding-hadoop-hdfs-e45f51d2e7a9)
@@ -55,3 +56,8 @@ To run spark job in the cluster simply run the command
 12. [Message Delivery Semantics](https://www.baeldung.com/kafka-message-delivery-semantics)
 13. [Apache Kafka Quick Guide](https://www.tutorialspoint.com/apache_kafka/apache_kafka_quick_guide.htm)
 14. [The world of messaging systems](https://mbvyn.medium.com/the-world-of-messaging-systems-6c74b428269d)
+15. [CAP Theorem](https://www.ibm.com/topics/cap-theorem)
+16. [What are NoSQL databases](https://www.ibm.com/topics/nosql-databases)
+17. [Data Lake vs Data WH vs Data Mart](https://www.ibm.com/cloud/blog/cloud-data-lake-vs-data-warehouse-vs-data-mart)
+18. [Data Formats](https://www.upsolver.com/blog/the-file-format-fundamentals-of-big-data)
+19. [ACID](https://www.databricks.com/glossary/acid-transactions)
