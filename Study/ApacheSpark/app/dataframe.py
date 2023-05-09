@@ -3,7 +3,7 @@ from pyspark.sql.functions import col, sum, max
 from pyspark.sql.types import StructType, StructField, StringType, FloatType, TimestampType, IntegerType
 
 # Define Spark session
-spark = SparkSession.builder.appName("Top Bike by Day").getOrCreate()
+spark = SparkSession.builder.master('local').appName("Top Bike by Day").getOrCreate()
 
 # Define CSV schema
 schema = StructType([
@@ -25,7 +25,7 @@ df = spark.read.format("csv") \
              .option("header", True) \
              .option("timestampFormat", "M/d/y H:m") \
              .schema(schema) \
-             .load("../resources/input/trip.csv")
+             .load("resources/input/trip.csv")
 
 # Group by date and bike id, and find the sum of duration
 grouped_df = df.groupBy(col("start_date").cast("date").alias("date"), col("bike_id").alias("bike_id_grouped")) \
@@ -49,4 +49,4 @@ result_df = result_df.withColumn("max_duration", result_df.max_duration.cast(Int
 result_df.repartition(10).write.format("csv") \
              .option("header", True) \
              .mode("overwrite")\
-             .save("../resources/output")
+             .save("resources/output")
