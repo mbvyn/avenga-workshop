@@ -35,11 +35,21 @@ To run spark job in the cluster simply run the command
    spark-submit --master <spark-master> <spark-file>
 ````
 
+# Project Overview
+Here, you will find a comprehensive guide on how to work with data using popular big data tools such as Spark, Kafka, Airflow, ELK, and Cassandra. 
+
+This project aims to demonstrate a simple workflow that data engineers typically encounter on a daily basis, making it a valuable starting point for students looking to gain insight into the field of big data.
+
+The project also includes architecture and clean code challenges that are intentionally added to help students identify common mistakes and pitfalls in real-world scenarios. 
+
+By tackling these challenges and identifying the errors, students can hone their problem-solving skills and ensure that they don't repeat the same mistakes in their own projects.
+
 # Presentations
 1. [Intro to Big Data](https://docs.google.com/presentation/d/1ITg5N6QJQGHiiEUS5LuTc-Wm46Q5MjNpUBcdhZxif1w/edit?usp=sharing)
 2. [Apache Spark](https://docs.google.com/presentation/d/1ecpfVd6aptUhvFK9h2iMgfMBeTCI4zWRhCYax4Qmp-4/edit?usp=sharing)
 3. [Streaming](https://docs.google.com/presentation/d/1h2_SVPEhDavj4L8lF8y5XLlLYYeDTu9_OLuejtA_9Yg/edit?usp=sharing)
 4. [Data Storage](https://docs.google.com/presentation/d/1s3DexUHbvvB4tdZ-qhfi3FuolnrfskseKgg2f2RvXZg/edit?usp=sharing)
+5. [ELK + Airflow](https://docs.google.com/presentation/d/14ukbpSR-Q--iiaJ_erJhELDeWJe_Rn-DFyemUF3GKcQ/edit?usp=sharing)
 
 # Useful Links
 1. [Understanding Hadoop. HDFS](https://mbvyn.medium.com/understanding-hadoop-hdfs-e45f51d2e7a9)
@@ -61,3 +71,8 @@ To run spark job in the cluster simply run the command
 17. [Data Lake vs Data WH vs Data Mart](https://www.ibm.com/cloud/blog/cloud-data-lake-vs-data-warehouse-vs-data-mart)
 18. [Data Formats](https://www.upsolver.com/blog/the-file-format-fundamentals-of-big-data)
 19. [ACID](https://www.databricks.com/glossary/acid-transactions)
+20. [What is Apache Airflow](https://www.astronomer.io/airflow/)
+21. [Apache Airflow with LocalExecutor](https://medium.com/@mbvyn/building-an-apache-airflow-configured-with-local-executor-and-spark-standalone-cluster-with-docker-283e5f66f73b)
+22. [ELK Stack Tutorial](https://www.guru99.com/elk-stack-tutorial.html#:~:text=What%20is%20the%20ELK%20Stack,logs%20in%20a%20single%20place.)
+23. [The complete guide to the ELK Stack](https://logz.io/learn/complete-guide-elk-stack/#intro)
+
